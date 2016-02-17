@@ -12,10 +12,11 @@ To build rpm:
 * git submodule update
 * cd fpm
 * ./build-rpm.sh
+* .rpm is created at /root/
 
 When folly or mcrouter src need to be updated
 
-* cd submodule_directory
+* cd fpm/src/submodule_directory
 * git checkout v1.0
 * cd ..
 * git add submodule_directory
