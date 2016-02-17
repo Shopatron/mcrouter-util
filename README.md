@@ -6,7 +6,7 @@ To build rpm:
 * yum update -y
 * yum install -y git vim screen
 * cd /root/
-* git clone https://github.com/aboutte/mcrouter-util.git
+* git clone https://github.com/shopatron/mcrouter-util.git
 * cd mcrouter-util
 * git submodule init
 * git submodule update
