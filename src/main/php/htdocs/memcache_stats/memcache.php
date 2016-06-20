@@ -21,13 +21,21 @@
 $VERSION='$Id: modified memcache.php,v 1.1.2.3 2008/08/28 18:07:54 mikl Exp $';
 
 define('ADMIN_USERNAME','admin'); 	// Admin Username
-define('ADMIN_PASSWORD','pass');  	// Admin Password
+define('ADMIN_PASSWORD','4j7J48bYjQuUn8NjzDWm');  	// Admin Password
 define('DATE_FORMAT','Y/m/d H:i:s');
 define('GRAPH_SIZE',200);
 define('MAX_ITEM_DUMP',50);
 
-$MEMCACHE_SERVERS[] = 'localhost:11211'; // add more as an array
-//$MEMCACHE_SERVERS[] = 'mymemcache-server2:11211'; // add more as an array
+$MEMCACHE_SERVERS[] = 'tron-prd-usw2-r3lrg.rrzk9u.0001.usw2.cache.amazonaws.com:11211';
+$MEMCACHE_SERVERS[] = 'tron-prd-usw2-r3lrg.rrzk9u.0002.usw2.cache.amazonaws.com:11211';
+$MEMCACHE_SERVERS[] = 'tron-prd-usw2-r3lrg.rrzk9u.0003.usw2.cache.amazonaws.com:11211';
+$MEMCACHE_SERVERS[] = 'tron-prd-usw2-r3lrg.rrzk9u.0004.usw2.cache.amazonaws.com:11211';
+$MEMCACHE_SERVERS[] = 'tron-prd-usw2-r3lrg.rrzk9u.0005.usw2.cache.amazonaws.com:11211';
+$MEMCACHE_SERVERS[] = 'tron-prd-usw2-r3lrg.rrzk9u.0006.usw2.cache.amazonaws.com:11211';
+
+
+# $MEMCACHE_SERVERS[] = 'tron-prd-usw2.rrzk9u.0001.usw2.cache.amazonaws.com:11211';
+# $MEMCACHE_SERVERS[] = 'tron-prd-usw2.rrzk9u.0002.usw2.cache.amazonaws.com:11211';
 
 
 ////////// END OF DEFAULT CONFIG AREA /////////////////////////////////////////////////////////////
